@@ -1,1 +1,17 @@
 @charset "ISO-8859-1";
+
+h1 {
+	color: white;
+	text-align: center;
+	background-color: blue;
+}
+
+h2 {
+	text-align: center;
+}
+
+table, th, td {
+	border: 1px solid black;
+	margin-left: auto;
+	margin-right: auto;
+}
