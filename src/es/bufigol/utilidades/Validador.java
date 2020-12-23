@@ -17,8 +17,9 @@ public class Validador {
 				&& (name.length() <= INT_Constantes.MAX_NICK)) {
 			exit = true;
 		}
-		while (exit) {
-			int i = 0;
+		int i = 0;
+		while (exit && i < name.length()) {
+
 			Character space = ' ';
 			if ((!(space.equals(name.charAt(i)))) && (!(Character.isLetter(name.charAt(i))))) {
 				exit = false;
