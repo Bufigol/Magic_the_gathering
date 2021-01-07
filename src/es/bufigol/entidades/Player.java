@@ -1,7 +1,6 @@
 package es.bufigol.entidades;
 
 import java.time.LocalDateTime;
-
 import es.bufigol.interfaces.INT_Player;
 
 public class Player implements INT_Player {
@@ -27,16 +26,16 @@ public class Player implements INT_Player {
 	 * @param idNumber
 	 */
 	public Player(String name, String nick, String email, String password, int idNumber) {
-		this.name = name;
-		this.nick = nick;
-		this.email = email;
-		this.password = password;
-		this.idNumber = idNumber;
-		this.fechaCreacion = LocalDateTime.now();
+		this.setName(name);
+		this.setNick(nick);
+		this.setEmail(email);
+		this.setPassword(password);
+		this.setIdNumber(idNumber);
+		this.setFechaCreacion(LocalDateTime.now());
 	}
 
 	@Override
-	public void playsMatch() {
+	public void playsMatch(INT_Player rival) {
 		// TODO Auto-generated method stub
 
 	}
