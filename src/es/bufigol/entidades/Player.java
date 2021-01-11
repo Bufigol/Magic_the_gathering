@@ -41,19 +41,19 @@ public class Player implements INT_Player {
 	}
 
 	@Override
-	public boolean updateDataFromServer() {
+	public boolean updatePlayerDataFromServer() {
 		// TODO Auto-generated method stub
 		return false;
 	}
 
 	@Override
-	public boolean updateDataToServer() {
+	public boolean updatePlayerDataToServer() {
 		// TODO Auto-generated method stub
 		return false;
 	}
 
 	@Override
-	public boolean createDeck() {
+	public boolean createDeckForPlayer() {
 		// TODO Auto-generated method stub
 		return false;
 	}

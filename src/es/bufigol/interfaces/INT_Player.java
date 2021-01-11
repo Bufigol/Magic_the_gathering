@@ -4,9 +4,9 @@ public interface INT_Player {
 	
 	public void playsMatch(INT_Player rival);
 	
-	public boolean updateDataFromServer();
+	public boolean updatePlayerDataFromServer();
 	
-	public boolean updateDataToServer();
+	public boolean updatePlayerDataToServer();
 	
-	public boolean createDeck();
+	public boolean createDeckForPlayer();
 }
